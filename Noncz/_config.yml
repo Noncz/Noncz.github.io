@@ -1,0 +1,65 @@
+markdown: rdiscount
+pygments: true
+plugins: ./_plugins
+paginate: 8
+
+safe: false
+
+#站点基础配置
+title: Noncz
+subTitle: It's now or never,i just wanna live when i alive.
+description: 开始用博客记录技术点滴。
+url: http://nowornever.cn
+feed: /atom.xml
+
+#菜单配置
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 文章
+    url: /archives.html
+#  - text: 作品
+#    url: /works.html
+
+#theme config
+themes: /themes/violet
+
+#配置你喜欢的顶部背景图片
+headimg:
+  - item: /themes/violet/images/hdbg01.jpg
+  - item: /themes/violet/images/hdbg02.jpg
+  - item: /themes/violet/images/hdbg03.jpg
+  - item: /themes/violet/images/hdbg04.jpg
+
+#关注我
+follow:
+#  - class: fa-google-plus
+#    url: http://www.zhanxin.info
+#  - class: fa-facebook
+#    url: http://www.zhanxin.info
+  - class: fa-github
+    url: http://github.com/chengzi
+  - class: fa-weibo
+    url: http://weibo.com/u/2491615854
+#  - class: fa-renren
+#    url: http://www.zhanxin.info
+#  - class: fa-pinterest
+#    url: http://www.zhanxin.info
+#  - class: fa-twitter
+#    url: http://www.zhanxin.info
+#  - class: fa-rss
+#    url: http://www.zhanxin.info
+
+#作者信息
+author:
+  link: http://www.zhanxin.info/contact.html
+  img: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
+
+#评论信息
+disqus:
+  config: true
+  id: piznblog
+
+duoshuo:
+  config: false
+  id: zhanxin
