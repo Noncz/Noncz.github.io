@@ -9,7 +9,8 @@ safe: false
 title: Noncz
 subTitle: It's now or never,i just wanna live when i alive.
 description: 开始用博客记录技术点滴。
-url: http://nowornever.cn
+#url: http://nowornever.cn
+production_url: http://username.github.io
 feed: /atom.xml
 
 #菜单配置
